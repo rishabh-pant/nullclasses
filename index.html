@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vulnerable App</title>
+</head>
+<body>
+  <h1>Welcome to the Vulnerable Application</h1>
+  <form action="/submit" method="POST">
+    <input type="text" name="data" placeholder="Enter data" />
+    <button type="submit">Submit</button>
+  </form>
+  <form action="/greet" method="GET">
+    <input type="text" name="name" placeholder="Enter name" />
+    <button type="submit">Greet</button>
+  </form>
+  <form action="/user" method="GET">
+    <input type="text" name="id" placeholder="Enter user ID" />
+    <button type="submit">Get User</button>
+  </form>
+  <form action="/file" method="GET">
+    <input type="text" name="file" placeholder="Enter filename" />
+    <button type="submit">Get File</button>
+  </form>
+</body>
+</html>
